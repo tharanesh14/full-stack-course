@@ -1,52 +1,164 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Django</h1>
-<div class="container my-5 p-4 " id="row-1"
+
+<div class="one mt-5">
+  <h1 id="h1">Python Full-Stack</h1>
+</div>
+
+<div class="container my-5 p-4 " id="container_out"
     style="border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; text-align: center;">
     <h1 style="width: auto; display: inline-block;">Level 0</h1>
     <div class="container">
         <div class="row">
-            <!-- Team Member 1 -->
-            <div class="col-xl-3 col-md-6 mb-4" href="">
+            <!-- Django -->
+            <div class="col-xl-3 col-md-6 mb-4" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Django">
                 <div class="card border-0 shadow">
                     <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title mb-0">Team Member</h5>
+                        <h5 class="card-title mb-0">Django</h5>
                         <div class="card-text text-black-50">Web Developer</div>
                     </div>
                 </div>
             </div>
-            <!-- Team Member 2 -->
-            <div class="col-xl-3 col-md-6 mb-4">
+            <div class="modal" id="Django" >
+                <div class="modal-dialog " >
+                  <div class="modal-content" >
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header header" >
+                      <h4 class="modal-title">Django</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <br>
+                      Modal body..
+                    </div>
+                    
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger close_button" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div>
+
+            <!-- REST -->
+            <div class="col-xl-3 col-md-6 mb-4" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#REST">
                 <div class="card border-0 shadow">
                     <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" class="card-img-top" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title mb-0">Team Member</h5>
+                        <h5 class="card-title mb-0">REST Framework</h5>
                         <div class="card-text text-black-50">Web Developer</div>
                     </div>
                 </div>
             </div>
-            <!-- Team Member 3 -->
-            <div class="col-xl-3 col-md-6 mb-4">
+            <div class="modal" id="REST" >
+                <div class="modal-dialog " >
+                  <div class="modal-content" >
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header header" >
+                      <h4 class="modal-title">REST Framework</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <br>
+                      Modal body..
+                    </div>
+                    
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger close_button" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div>
+
+
+            <!-- Advance_DSA -->
+            <div class="col-xl-3 col-md-6 mb-4" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Advance_DSA">
                 <div class="card border-0 shadow">
                     <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title mb-0">Team Member</h5>
+                        <h5 class="card-title mb-0">Advance DSA</h5>
                         <div class="card-text text-black-50">Web Developer</div>
                     </div>
                 </div>
             </div>
-            <!-- Team Member 4 -->
-            <div class="col-xl-3 col-md-6 mb-4">
+
+            <div class="modal" id="Advance_DSA" >
+                <div class="modal-dialog " >
+                  <div class="modal-content" >
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header header" >
+                      <h4 class="modal-title">Advance DSA</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <br>
+                      Modal body..
+                    </div>
+                    
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger close_button" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div>
+
+
+            <!-- Coding -->
+            <div class="col-xl-3 col-md-6 mb-4" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Coding">
                 <div class="card border-0 shadow">
                     <img src="https://source.unsplash.com/7u5mwbu7qLg/500x350" class="card-img-top" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title mb-0">Team Member</h5>
+                        <h5 class="card-title mb-0">Coding Problems</h5>
                         <div class="card-text text-black-50">Web Developer</div>
                     </div>
                 </div>
             </div>
+
+            <div class="modal" id="Coding" >
+                <div class="modal-dialog " >
+                  <div class="modal-content" >
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header header" >
+                      <h4 class="modal-title">Coding Probelms</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <br>
+                      Modal body..
+                    </div>
+                    
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger close_button" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div>
+
         </div>
     </div>
 </div>

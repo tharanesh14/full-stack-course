@@ -23,4 +23,7 @@ urlpatterns = [
     path('',views.home,name="home"),
     path('django',views.django,name="django"),
     path('mern',views.mern,name="mern"),
+    path('about',views.about,name="about"),
+    path('contact',views.contact,name="contact"),
+    path('pricing',views.pricing,name="pricing"),
 ]
