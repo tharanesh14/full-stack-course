@@ -1,0 +1,111 @@
+#neubar {
+    background: linear-gradient(to right, rgba(237, 154, 194, 0.5), rgba(249, 225, 86, 0.5));
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.4)
+  }
+  
+  /* .nav-item .active {
+    border-radius: 6px;
+    background: linear-gradient(145deg, rgba(237, 154, 194), rgba(249, 225, 8));
+    box-shadow:  4px 4px 8px #ddc1a0,
+                 -4px -4px 8px #f7e5cc;
+  } */
+  .nav-item:hover {
+    border-radius: 6px;
+    background: linear-gradient(145deg, rgba(237, 154, 194), rgba(249, 225, 8));
+    box-shadow:  4px 4px 8px #ddc1a0,
+                 -4px -4px 8px #f7e5cc;
+    transform: scale(1.05); /* Adjust the scale factor as needed */
+    transition: transform 3s ease;
+  }
+
+  #neubar .dropdown-menu a:hover {
+    color: #454545
+  }
+  #neubar .nav-item {
+    margin : auto 4px;
+  }
+  #neubar a {
+  
+    padding-left:12px;
+    padding-right:12px;
+  }
+  #neubar .dropdown-menu {
+    background : #545454
+  }
+  a.navbar-brand {
+    color: #454545
+  }
+
+  .modal-body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.modal-body::before {    
+  content: "";
+  background-image: url('background.png');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+
+  .col:hover {
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+    transform: scale(1.05); /* Adjust the scale factor as needed */
+    transition: transform 3s ease; /* Add a smooth transition effect */
+}
+.modal-header {
+    background: linear-gradient(to right, rgba(237, 154, 194, 0.2), rgba(249, 225, 86, 0.2));
+  }
+
+#container_out {
+    background: linear-gradient(to right, rgba(237, 154, 194, 0.2), rgba(249, 225, 86, 0.2));
+  }
+
+  @media screen and (min-width: 676px) {
+    .modal-dialog {
+      max-width: 900px; /* New width for default modal */
+    }
+}
+  
+
+.close_button{
+    border-radius: 50px;
+    width: 20%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.one h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+  }
+  /* .one h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #b80000;
+  } */
+  .one h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #b80000;
+  }
