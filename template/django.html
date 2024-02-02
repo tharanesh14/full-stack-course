@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-
+{% load static %}
 {% block content %}
 
 <div class="one mt-5">
@@ -12,15 +12,15 @@
     <div class="container">
         <div class="row">
             <!-- Django -->
-            <div class="col-xl-3 col-md-6 mb-4" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Django">
-                <div class="card border-0 shadow">
-                    <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title mb-0">Django</h5>
-                        <div class="card-text text-black-50">Web Developer</div>
-                    </div>
-                </div>
-            </div>
+            <div class="col-xl-3 col-md-6 mb-4 " type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Django">
+              <div class="card border-0 shadow pt-4" style="align-items: center;">
+                  <img src="{% static 'django.png' %}" style="width: 100px;" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                      <h5 class="card-title mb-0">Django</h5>
+                      <div class="card-text text-black-50">Web Developer</div>
+                  </div>
+              </div>
+          </div>
             <div class="modal" id="Django" >
                 <div class="modal-dialog " >
                   <div class="modal-content" >
@@ -48,15 +48,15 @@
               </div>
 
             <!-- REST -->
-            <div class="col-xl-3 col-md-6 mb-4" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#REST">
-                <div class="card border-0 shadow">
-                    <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title mb-0">REST Framework</h5>
-                        <div class="card-text text-black-50">Web Developer</div>
-                    </div>
-                </div>
-            </div>
+            <div class="col-xl-3 col-md-6 mb-4 " type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#REST">
+              <div class="card border-0 shadow pt-4" style="align-items: center;">
+                  <img src="{% static 'rest.png' %}" style="width: 225px;" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                      <h5 class="card-title mb-0">REST Framework</h5>
+                      <div class="card-text text-black-50">Web Developer</div>
+                  </div>
+              </div>
+          </div>
             <div class="modal" id="REST" >
                 <div class="modal-dialog " >
                   <div class="modal-content" >
@@ -85,15 +85,15 @@
 
 
             <!-- Advance_DSA -->
-            <div class="col-xl-3 col-md-6 mb-4" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Advance_DSA">
-                <div class="card border-0 shadow">
-                    <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title mb-0">Advance DSA</h5>
-                        <div class="card-text text-black-50">Web Developer</div>
-                    </div>
-                </div>
-            </div>
+            <div class="col-xl-3 col-md-6 mb-4 " type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Advance_DSA">
+              <div class="card border-0 shadow pt-4" style="align-items: center;">
+                  <img src="{% static 'dsa.png' %}" style="width: 100px;" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                      <h5 class="card-title mb-0">HTMLs</h5>
+                      <div class="card-text text-black-50">Web Developer</div>
+                  </div>
+              </div>
+          </div>
 
             <div class="modal" id="Advance_DSA" >
                 <div class="modal-dialog " >
@@ -123,15 +123,15 @@
 
 
             <!-- Coding -->
-            <div class="col-xl-3 col-md-6 mb-4" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Coding">
-                <div class="card border-0 shadow">
-                    <img src="https://source.unsplash.com/7u5mwbu7qLg/500x350" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title mb-0">Coding Problems</h5>
-                        <div class="card-text text-black-50">Web Developer</div>
-                    </div>
-                </div>
-            </div>
+            <div class="col-xl-3 col-md-6 mb-4 " type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#html">
+              <div class="card border-0 shadow pt-4" style="align-items: center;">
+                  <img src="{% static 'code.png' %}" style="width: 100px;" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                      <h5 class="card-title mb-0">Logical Programing</h5>
+                      <div class="card-text text-black-50">Web Developer</div>
+                  </div>
+              </div>
+          </div>
 
             <div class="modal" id="Coding" >
                 <div class="modal-dialog " >
@@ -139,7 +139,7 @@
               
                     <!-- Modal Header -->
                     <div class="modal-header header" >
-                      <h4 class="modal-title">Coding Probelms</h4>
+                      <h4 class="modal-title">Logical Programing</h4>
                       <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
               

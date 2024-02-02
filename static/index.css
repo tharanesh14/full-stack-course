@@ -36,6 +36,24 @@
     color: #454545
   }
 
+  .modal-body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.modal-body::before {    
+  content: "";
+  background-image: url('background.png');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+
   .col:hover {
     background-color: rgb(230, 230, 230);
     cursor: pointer;

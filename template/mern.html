@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-
+{% load static %}
 {% block content %}
 <div class="one mt-5">
   <h1 id="h1">MERN Full-Stack</h1>
@@ -11,15 +11,15 @@
     <div class="container">
         <div class="row">
             <!-- Node JS -->
-            <div class="col-xl-3 col-md-6 mb-4" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Node_JS">
-                <div class="card border-0 shadow">
-                    <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title mb-0">Node JS</h5>
-                        <div class="card-text text-black-50">Web Developer</div>
-                    </div>
-                </div>
-            </div>
+            <div class="col-xl-3 col-md-6 mb-4 " type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Node_JS">
+              <div class="card border-0 shadow pt-4" style="align-items: center;">
+                  <img src="{% static 'nodejs.png' %}" style="width: 230px;" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                      <h5 class="card-title mb-0">Node JS</h5>
+                      <div class="card-text text-black-50">Web Developer</div>
+                  </div>
+              </div>
+          </div>
             <div class="modal" id="Node_JS" >
                 <div class="modal-dialog " >
                   <div class="modal-content" >
@@ -47,15 +47,15 @@
               </div>
 
             <!-- Express JS -->
-            <div class="col-xl-3 col-md-6 mb-4" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Express_JS">
-                <div class="card border-0 shadow">
-                    <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title mb-0">Express JS</h5>
-                        <div class="card-text text-black-50">Web Developer</div>
-                    </div>
-                </div>
-            </div>
+            <div class="col-xl-3 col-md-6 mb-4 " type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Express_JS">
+              <div class="card border-0 shadow pt-4" style="align-items: center;">
+                  <img src="{% static 'express.png' %}" style="width: 225px;" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                      <h5 class="card-title mb-0">Express JS</h5>
+                      <div class="card-text text-black-50">Web Developer</div>
+                  </div>
+              </div>
+          </div>
             <div class="modal" id="Express_JS" >
                 <div class="modal-dialog " >
                   <div class="modal-content" >
@@ -84,15 +84,15 @@
 
 
             <!-- Advance_DSA -->
-            <div class="col-xl-3 col-md-6 mb-4" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Advance_DSA">
-                <div class="card border-0 shadow">
-                    <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title mb-0">Advance DSA</h5>
-                        <div class="card-text text-black-50">Web Developer</div>
-                    </div>
-                </div>
-            </div>
+            <div class="col-xl-3 col-md-6 mb-4 " type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Advance_DSA">
+              <div class="card border-0 shadow pt-4" style="align-items: center;">
+                  <img src="{% static 'dsa.png' %}" style="width: 135px;" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                      <h5 class="card-title mb-0">Advance DSA</h5>
+                      <div class="card-text text-black-50">Web Developer</div>
+                  </div>
+              </div>
+          </div>
 
             <div class="modal" id="Advance_DSA" >
                 <div class="modal-dialog " >
@@ -122,15 +122,15 @@
 
 
             <!-- Coding -->
-            <div class="col-xl-3 col-md-6 mb-4" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Coding">
-                <div class="card border-0 shadow">
-                    <img src="https://source.unsplash.com/7u5mwbu7qLg/500x350" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title mb-0">Coding Problems</h5>
-                        <div class="card-text text-black-50">Web Developer</div>
-                    </div>
-                </div>
-            </div>
+            <div class="col-xl-3 col-md-6 mb-4 " type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Coding">
+              <div class="card border-0 shadow pt-4" style="align-items: center;">
+                  <img src="{% static 'code.png' %}" style="width: 135px;" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                      <h5 class="card-title mb-0">Logical Programing</h5>
+                      <div class="card-text text-black-50">Web Developer</div>
+                  </div>
+              </div>
+          </div>
 
             <div class="modal" id="Coding" >
                 <div class="modal-dialog " >
@@ -138,7 +138,7 @@
               
                     <!-- Modal Header -->
                     <div class="modal-header header" >
-                      <h4 class="modal-title">Coding Probelms</h4>
+                      <h4 class="modal-title">Logical Programing</h4>
                       <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
               
